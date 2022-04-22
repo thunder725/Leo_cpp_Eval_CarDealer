@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <vector>
 #include "Gender.h"
 #include "Color.h"
 #include "Car.h"
@@ -7,6 +8,10 @@
 
 class Dealership
 {
+private:
+	std::vector<Person> mExistingPersons;
+	std::vector<Car> mExistingCars;
+	std::vector<Car> mPersonalCars;
 
 public:
 	void CreatePerson();

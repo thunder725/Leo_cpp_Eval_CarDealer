@@ -229,11 +229,11 @@ void Person::IntroduceThemselves()
 
 	if (HasCar())
 	{
-		cout << " and has a " << mCar.GetBrand() << " " << mCar.GetModel() <<  mCar.GetLicensePlate() << endl;
+		cout << " and has a " << mCar.GetBrand() << " " << mCar.GetModel() <<  mCar.GetLicensePlate() << ".\n";
 	}
 	else
 	{
-		cout << " and has no car\n";
+		cout << " and has no car.\n";
 	}
 }
 

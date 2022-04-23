@@ -1,8 +1,13 @@
 #include <string>
+#include <iostream>
 #include "Gender.h"
 #include "Color.h"
 #include "Car.h"
 #include "Person.h"
+#include "Dealership.h"
+
+
+using namespace std;
 
 int main()
 {
@@ -12,4 +17,10 @@ int main()
     sIrwin.IntroduceThemselves();
 
     sIrwin.PaintCar(Color::Blue);
+
+    cout << "\n\n\n";
+
+    Dealership newDealership = Dealership();
+
+    newDealership.DealWithPlayerInput();
 }
